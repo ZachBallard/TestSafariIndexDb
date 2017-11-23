@@ -25,6 +25,6 @@ xhr.send();
 ```
 **Note:** The above code will only work if the requested server allow CORS
 
-[l_jsstore]: <www.jsstore.net>
+[l_jsstore]: <http://www.jsstore.net>
 [l_jquery_w3]: <https://www.w3schools.com/jquery/>
-[l_jsstore_tutorial]: <www.jsstore.net/Tutorial>
+[l_jsstore_tutorial]: <http://www.jsstore.net/Tutorial>
