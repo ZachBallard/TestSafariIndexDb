@@ -1,5 +1,4 @@
-# ImageBlobDemo
-
+# Storing the image Blob in indexed db
 This is a demo on storing the images as Blob object in indexed DB using [JsStore][l_jsstore].
 
 It would be very easy to understand if you are familiar with Jquery and JsStore. 
@@ -7,7 +6,7 @@ In case you need, you can go through [Jquery Tutorial][l_jquery_w3] and [JsStore
 
 We are just storing the Image Blob object in the Indexed DB and using createObjectURL method to generate a url, and set that url to image src to display the image.
 
-In this demo,code is written only for storing the image uploaded from your local machine but we can also download the image and keep it in local indexed DB using the code below
+In this demo, code is written only for storing the image uploaded from your local machine but we can also download the image and keep it in local indexed DB using the code below:
 
 ```sh
 
@@ -23,8 +22,11 @@ xhr.onload = function response(e) {
 xhr.send();
 
 ```
-**Note:** The above code will only work if the requested server allow CORS
+**Note:** The above code will only work if the requested server allow CORS.
+
+You can check the live demo [here][l_demo].
 
 [l_jsstore]: <http://www.jsstore.net>
 [l_jquery_w3]: <https://www.w3schools.com/jquery/>
 [l_jsstore_tutorial]: <http://www.jsstore.net/Tutorial>
+[l_demo]: <https://udaychy.github.io/ImageBlobDemo/>
